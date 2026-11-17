@@ -24,5 +24,5 @@ Lo schema relazionale è composto da 6 tabelle principali più una **Global Temp
 ### Come eseguire il laboratorio: 
 
 1. Connettersi a un'istanza Oracle (es. via SQL Developer, SQL*Plus o SQLcl) con un utente dotato dei privilegi di creazione tabelle e procedure.
-2. Eseguire in ordine gli script nella cartella `DDL-DML/` (`01_create_tables.sql` e `02_seed_data.sql`).
+2. Eseguire in ordine gli script nella cartella `DDL-DML/` (`01_create_tables.sql` e `02_insert.sql`).
 3. Abilitare l'output a console (`SET SERVEROUTPUT ON;`) ed eseguire i singoli script nella cartella `scripts_plsql/`.
